@@ -4,7 +4,7 @@
   "agent_details": [
     {
       "id": "699961350ab3a50ca24854a8",
-      "name": "ISE Stock Advisor Manager",
+      "name": "Indian Stock Advisor Manager",
       "type": "manager",
       "model": "gpt-4.1",
       "provider": "openai"
