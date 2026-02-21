@@ -1,0 +1,19 @@
+{
+  "agent_name": "ISE Stock Advisor Manager",
+  "agent_id": "699961350ab3a50ca24854a8",
+  "agent_type": "manager",
+  "accessor": "text",
+  "has_module_outputs": false,
+  "response_schema": {
+    "type": "object",
+    "properties": {
+      "response": {
+        "type": "string",
+        "description": "The manager's aggregated stock recommendation response"
+      }
+    }
+  },
+  "sample_response": {
+    "response": "Based on analysis from both research agents, here are the most reliable ISE stocks..."
+  }
+}

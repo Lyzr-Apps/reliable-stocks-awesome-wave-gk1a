@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    {"id": "input_node", "type": "Input", "label": "User Query", "nodeCategory": "input"},
+    {"id": "manager_agent", "type": "Agent", "label": "ISE Stock Advisor Manager", "nodeCategory": "agent"},
+    {"id": "volatility_agent", "type": "Agent", "label": "Volatility Research Agent", "nodeCategory": "agent"},
+    {"id": "analyst_agent", "type": "Agent", "label": "Analyst Ratings Agent", "nodeCategory": "agent"},
+    {"id": "output_node", "type": "Output", "label": "Stock Recommendations", "nodeCategory": "end"}
+  ],
+  "edges": [
+    {"source": "input_node", "target": "manager_agent"},
+    {"source": "manager_agent", "target": "volatility_agent"},
+    {"source": "manager_agent", "target": "analyst_agent"},
+    {"source": "volatility_agent", "target": "output_node"},
+    {"source": "analyst_agent", "target": "output_node"}
+  ],
+  "agents": {
+    "manager": {"id": "699961350ab3a50ca24854a8", "name": "ISE Stock Advisor Manager"},
+    "subagents": [
+      {"id": "69996128730bbd74d53e89c9", "name": "Volatility Research Agent"},
+      {"id": "69996128a63b170a3b8170e0", "name": "Analyst Ratings Agent"}
+    ]
+  }
+}

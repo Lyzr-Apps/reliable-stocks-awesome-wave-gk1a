@@ -1,0 +1,16 @@
+{
+  "agent_name": "Analyst Ratings Agent",
+  "agent_id": "69996128a63b170a3b8170e0",
+  "agent_type": "subagent",
+  "accessor": "text",
+  "has_module_outputs": false,
+  "response_schema": {
+    "type": "object",
+    "properties": {
+      "response": {
+        "type": "string",
+        "description": "Analyst ratings research findings for ISE stocks"
+      }
+    }
+  }
+}

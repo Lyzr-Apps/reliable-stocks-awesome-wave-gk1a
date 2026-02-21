@@ -1,0 +1,14 @@
+{
+  "agent_name": "ISE Stock Advisor Manager",
+  "agent_id": "699961350ab3a50ca24854a8",
+  "description": "Coordinates sub-agents to research volatility and analyst sentiment for ISE-listed stocks, aggregates results into ranked reliable stock recommendations",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "response": "string"
+  },
+  "example_response": {
+    "response": "The agent's response text"
+  }
+}

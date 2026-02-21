@@ -1,0 +1,16 @@
+{
+  "agent_name": "Volatility Research Agent",
+  "agent_id": "69996128730bbd74d53e89c9",
+  "agent_type": "subagent",
+  "accessor": "text",
+  "has_module_outputs": false,
+  "response_schema": {
+    "type": "object",
+    "properties": {
+      "response": {
+        "type": "string",
+        "description": "Volatility research findings for ISE stocks"
+      }
+    }
+  }
+}

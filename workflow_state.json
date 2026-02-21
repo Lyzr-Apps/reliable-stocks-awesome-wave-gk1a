@@ -1,0 +1,27 @@
+{
+  "manager_agent_id": "699961350ab3a50ca24854a8",
+  "subagent_ids": ["69996128730bbd74d53e89c9", "69996128a63b170a3b8170e0"],
+  "agent_details": [
+    {
+      "id": "699961350ab3a50ca24854a8",
+      "name": "ISE Stock Advisor Manager",
+      "type": "manager",
+      "model": "gpt-4.1",
+      "provider": "openai"
+    },
+    {
+      "id": "69996128730bbd74d53e89c9",
+      "name": "Volatility Research Agent",
+      "type": "subagent",
+      "model": "sonar-pro",
+      "provider": "perplexity"
+    },
+    {
+      "id": "69996128a63b170a3b8170e0",
+      "name": "Analyst Ratings Agent",
+      "type": "subagent",
+      "model": "sonar-pro",
+      "provider": "perplexity"
+    }
+  ]
+}
